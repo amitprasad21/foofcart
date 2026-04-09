@@ -1,4 +1,5 @@
 <img src="logo.png" alt="FoodCart Logo" width="150">
+
 # FoodCart - Direct-to-Consumer Cloud Kitchen
 
 ![Responsive Design Badge](https://img.shields.io/badge/Responsive-Mobile--First-brightgreen)

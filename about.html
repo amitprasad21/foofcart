@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | FoodCart</title>
+    
+    <link rel="icon" type="image/png" href="logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="index.css">
+    
+    <style>
+        .social-svg { width: 20px; height: 20px; fill: currentColor; }
+        .page-header {
+            padding: 160px 0 80px;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(15,16,18,0.95) 0%, rgba(15,16,18,0.7) 100%), url('assets/about_kitchen_1775709488563.png') center/cover;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .page-header h1 { font-size: 3.5rem; margin-bottom: 16px; }
+        .page-header p { color: var(--text-muted); font-size: 1.15rem; max-width: 600px; margin: 0 auto; }
+        
+        .about-content-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="logo.png" alt="FoodCart Logo" class="logo-img">
+                <span>FoodCart</span>
+            </a>
+            <div class="nav-links">
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="index.html#how-it-works">How to Order</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="https://wa.me/919628171526?text=menu" class="btn btn-primary btn-sm" target="_blank">
+                    <i data-lucide="message-circle"></i> Order via WhatsApp
+                </a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="about.html" class="mobile-link">About</a>
+            <a href="menu.html" class="mobile-link">Menu</a>
+            <a href="index.html#how-it-works" class="mobile-link">How to Order</a>
+            <a href="contact.html" class="mobile-link">Contact</a>
+            <a href="https://wa.me/919628171526?text=menu" class="btn btn-primary w-full text-center mt-4" target="_blank">Order on WhatsApp</a>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="fade-in-element">Our Story</h1>
+            <p class="fade-in-element" style="animation-delay: 0.1s;">Elevating the online dining experience in Greater Noida.</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container about-content-wrapper reveal-up">
+            <img src="assets/hero_food_1775709412268.png" style="border-radius: 24px; margin-bottom: 40px; width: 100%; border: 1px solid var(--border-subtle);">
+            
+            <h2 class="section-title">A Vision for Better Food Delivery</h2>
+            <p class="section-text" style="color: #fff; margin-bottom: 24px;">FoodCart was born out of a simple observation: ordering food online shouldn't mean sacrificing restaurant-quality standards. We recognized a gap in the Greater Noida market for a brand that treats cloud kitchen operations with the same culinary respect as a fine-dining establishment.</p>
+            
+            <p class="section-text" style="color: #fff; margin-bottom: 24px;">We operate an advanced, hygiene-first cloud kitchen situated primarily in Knowledge Park 3. By cutting out the middle-men dining room costs, we shift all our resources into sourcing incredible ingredients, hiring phenomenal chefs, and ensuring lightning-fast delivery.</p>
+
+            <p class="section-text" style="color: #fff; margin-bottom: 40px;">Our WhatsApp-first approach allows us to directly connect with our customers, offering a personalized, seamless ordering experience without the clutter of aggregator apps.</p>
+
+            <a href="https://wa.me/919628171526?text=menu" class="btn btn-primary btn-lg" target="_blank">
+                <i data-lucide="message-circle"></i> Try FoodCart Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer snippet -->
+    <footer class="footer">
+        <!-- Footer Content Extracted from Original Layout -->
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <a href="index.html" class="footer-logo">
+                        <img src="logo.png" alt="FoodCart Logo">
+                        <span>FoodCart</span>
+                    </a>
+                    <p class="footer-desc">A modern cloud kitchen redefining daily dining. Premium meals, quality ingredients, delivered exceptionally fast.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><svg class="social-svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                        <a href="#" aria-label="Facebook"><svg class="social-svg" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a>
+                        <a href="https://wa.me/919628171526" aria-label="WhatsApp" target="_blank"><svg class="social-svg" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.875-4.426 9.876-9.874 0-5.446-4.428-9.874-9.876-9.874-5.448 0-9.875 4.428-9.875 9.875 0 2.112.593 3.712 1.588 5.385l-1.157 4.223 4.352-1.159zm11.597-4.48c-.08-.135-.294-.216-.615-.375-.32-.16-1.897-.938-2.191-1.046-.294-.108-.508-.16-.722.16-.214.32-.828 1.046-1.016 1.26-.188.214-.376.241-.696.082-.32-.16-1.354-.5-2.58-1.593-.951-.849-1.592-1.896-1.78-2.216-.188-.32-.02-.493.14-.654.145-.146.32-.375.48-.562.16-.188.214-.32.32-.533.107-.214.053-.401-.027-.562-.08-.16-.722-1.745-.99-2.39-.258-.626-.519-.542-.722-.552-.188-.01-.402-.01-.616-.01-.214 0-.56.08-.854.399-.294.32-1.121 1.095-1.121 2.671 0 1.576 1.147 3.101 1.308 3.315.16.214 2.261 3.447 5.474 4.835 2.158.932 2.871.956 3.864.811.993-.146 3.143-1.285 3.585-2.528.442-1.242.442-2.308.31-2.528z"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="index.html#how-it-works">How to Order</a></li>
+                        <li><a href="contact.html">Our Quality</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Legal & Trust</h4>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact Support</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="refund.html">Refund & Cancellation</a></li>
+                    </ul>
+                </div>
+                <!-- Contact & WhatsApp Block -->
+                <div class="footer-col">
+                    <h4 class="footer-title">Ready to Order?</h4>
+                    <div class="footer-contact-card">
+                        <p style="margin-bottom: 8px;"><strong>Address:</strong> Knowledge Park 3, Greater Noida, UP 201310</p>
+                        <p style="margin-bottom: 8px;"><strong>Email:</strong> <a href="mailto:amit9733481931@gmail.com">amit9733481931@gmail.com</a></p>
+                        <p><strong>Phone:</strong> +91 9628 171 526</p>
+                        <a href="https://wa.me/919628171526?text=menu" class="btn btn-outline btn-sm w-full mt-4" target="_blank">
+                            <i data-lucide="message-circle"></i> Message Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> FoodCart Cloud Kitchens. All rights reserved.</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
